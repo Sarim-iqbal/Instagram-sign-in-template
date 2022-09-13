@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram login page </title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<style>
+    body{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+    
+.basic-style{
+    width: 320px;
+    height: 400px;
+    background-color: rgb(236, 247, 243);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.border-style{
+    border: 2px 2px 2px black;
+}
+.shadow-style{
+    box-shadow: 5px 5px 5px  black;
+}
+.imgIcon{
+    display: flex;
+    border: 5px;
+    padding-left: 25px;
+}
+.email{
+    border-radius:15px;
+    margin: 20px;
+    margin-left: 50px;
+}
+.password{
+    border-radius:15px;
+   margin: 20px;
+    
+
+
+}
+button{
+    margin: 20px;
+    width: 200px;
+border-radius: 5px;
+margin-left: 50px;
+color:white;
+background-color: blue;
+margin-top: 30px;
+
+}
+.fblogin{
+    color: rgb(9, 9, 243);
+    margin-left: 60px;
+    margin-top: 30px;
+}
+p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+.footer{
+    width: 320px;
+    height: 60px;
+    background-color:  rgb(236, 247, 243) ;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(5, 5, 216);
+}
+.last{
+    margin-top: 30px;
+}
+.sideImg{
+   margin-left: 80px;
+   margin-right: -40px;
+}
+
+</style>
+<body>
+    <div class="sideImg">
+       <img src="../instagram new side img.png" alt="">
+    </div>
+
+
+   <div>
+    <form method="get" name="regForm " id="rgForm" novalidate class="border-style basic-style shadow-style">
+ <span class="imgIcon">
+    <img src="../instagram icon.png"  width="50px" height="px" alt="">
+    <img src="../instagram icon .png "  margin alt="">   
+</span>
+<span>
+Email:-
+<input class="email" type="email" name="email" method="get">
+</span>
+<br>
+<span>
+Password:-
+   <input type="password" name="password" id="passWord" class="password" method="get">
+</span>
+<br>
+<button>log In</button>
+<span>
+<hr>
+<div class="fblogin">
+    <span class="bi bi-facebook"> Log in with Facebook</span>
+    <p>Forgot password?</p>
+    </span>
+</div>
+</form> 
+<form name="signup" id="sigUp" novalidate="sigmUp" class="footer">
+    <p>Don't have an account? <h6>Sign Up</h6></p>
+</form> 
+<div class="last"><img src="../apple store &google play.png" alt=""> </div>
+
+
+</div>
+</body>
+</html>
